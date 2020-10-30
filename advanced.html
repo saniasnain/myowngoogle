@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advanced search</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body{
+                text-align: left;
+                text-shadow: darkgray;
+            }
+  
+
+        </style>
+
+    </head>
+    <body>
+        <form action="https://google.com/search">
+            <div class="baz">
+                <a href="index.html">Go back</a>
+            </div>
+        <h4>Advanced Search</h4>
+        <h5>Find pages with..</h5>
+        <div class="a">
+            <label for="word" style="font-size: 18; font-weight: bold">All these words:</label>
+            <input type="text" name="as_q" id="word" style="width: 500px;height: 20px;border-color: rgb(201, 199, 199)">
+            <label for="word" style="font-size: 12px">Type the important words: tri-colour rat terrier</label>
+        </div>
+        <div class="a">
+            <label for="exactwords" style="font-size: 18; font-weight: bold">This exact word or phrase:</label>
+            <input type="text" name="as_epq" id="exactwords" style="width: 500px;height: 20px;border-color: rgb(201, 199, 199)">
+            <label for="exactwords" style="font-size: 12px">Put exact words in quotes: "rat terrier"</label>
+        </div>
+        <div class="a">
+            <label for="aot" style="font-size: 18; font-weight: bold">Any of these words:</label>
+            <input type="text" name="as_oq" id="aot" style="width: 500px;height: 20px;border-color: rgb(201, 199, 199)">
+            <label for="aot" style="font-size: 12px">Type OR between all the words you want: miniature OR standard</label>
+            
+        </div>
+        <div class="not">
+            <label for="not" style="font-size: 18; font-weight: bold">None of these words:</label>
+            <input type="text" name="as_eq" id="not" style="width: 500px;height: 20px;border-color:rgb(201, 199, 199)">
+            <label for="not" style="font-size: 12px">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</label>
+        </div>
+        <div id="b">
+        <input id="submit" type="submit" value="Advanced search" >
+        </div>
+        </form>
+    </body>
+</html>
